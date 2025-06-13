@@ -139,7 +139,6 @@ Proyek ini menghadirkan beberapa tantangan menarik:
 Chatbot ini adalah proyek Capstone yang dibuat untuk tujuan pembelajaran dan demonstrasi kemampuan teknis dalam Machine Learning dan Full-Stack Development. Informasi yang diberikan oleh chatbot ini bersifat umum dan **BUKAN PENGGANTI NASIHAT MEDIS PROFESIONAL**. Selalu konsultasikan dengan tenaga medis yang berkualifikasi untuk setiap masalah kesehatan.
 
 ## 🤝 Kontributor
-
-- Pengembang Utama
+Pengembang Utama
 - Pandu Tri Praptomo
 - Aisyah Hanan
