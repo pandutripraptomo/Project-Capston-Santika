@@ -140,6 +140,6 @@ Chatbot ini adalah proyek Capstone yang dibuat untuk tujuan pembelajaran dan dem
 
 ## 🤝 Kontributor
 
-* **[Nama Lengkap Anda]** - Pengembang Utama
+- Pengembang Utama
 - Pandu Tri Praptomo
 - Aisyah Hanan
