@@ -1,0 +1,9 @@
+# requirements.txt
+Flask
+pandas
+numpy
+tensorflow
+scikit-learn
+matplotlib
+jupyter
+ipykernel

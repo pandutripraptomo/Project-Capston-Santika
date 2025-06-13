@@ -1,0 +1,20 @@
+# Virtual Environment
+venv/
+.env
+
+# Python specific files
+__pycache__/
+*.pyc
+
+# Machine Learning Models and Preprocessing Objects (GENERATED FILES)
+# Ini penting karena model bisa sangat besar dan seringkali di-generate, bukan dikoding manual.
+# Jika Anda ingin menyertakan model di GitHub (tidak disarankan untuk file besar), Anda perlu Git LFS.
+# Untuk proyek Capstone, biasanya modelnya di-generate dari notebook.
+models/
+
+# Jupyter Notebook specific
+.ipynb_checkpoints/
+
+# OS specific
+.DS_Store
+Thumbs.db

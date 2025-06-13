@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Santika Health Chatbot</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <ul class="circles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <div class="chat-container">
+      <h1>
+        <img
+          src="{{ url_for('static', filename='images/logo.png') }}"
+          alt="Health Logo"
+          class="header-logo"
+        />
+        Santika <span>🩺</span>
+      </h1>
+      <div class="chat-box" id="chat-box">
+        <div class="message bot-message">
+          Hello! I'm here to provide general health information. How can I help
+          you today?
+        </div>
+      </div>
+      <form id="chat-form">
+        <input
+          type="text"
+          id="user-input"
+          placeholder="Ask a health question..."
+          autocomplete="off"
+        />
+        <button type="submit">Send</button>
+      </form>
+      <div class="disclaimer">
+        <p>
+          Disclaimer: This chatbot provides general health information and is
+          not a substitute for professional medical advice. Always consult with
+          a qualified healthcare provider for any health concerns.
+        </p>
+      </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </body>
+</html>
